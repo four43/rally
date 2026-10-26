@@ -6,7 +6,7 @@ import { readFileSync } from 'node:fs';
 import * as THREE from 'three';
 import { createRallyCamera } from '../src/render/camera.js';
 
-function oldCamera(cam, base) { // games/rally/src/render.js:152-185 at e03ed71; FOV numbers as base + (today − 60)
+function oldCamera(cam, base) { // exp/rally/src/render.js:152-185 at e03ed71; FOV numbers as base + (today − 60)
   const s = { camPos: new THREE.Vector3(0, 4, -8), camLook: new THREE.Vector3(), chaseDir: null, orbitA: undefined };
   return (car, orbit, camMode, dt) => {
     const p = car.p, q = car.q, v = car.v;

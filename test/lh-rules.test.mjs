@@ -1,7 +1,7 @@
 // lion-hawk overview §1.3: Rally's game code builds physics only through the World. No hand-made RAPIER.World, no
 // ColliderDesc, no collider property setters and no friction/density/restitution literals outside the registry
 // (src/defs/materials.js). massProps (D3) and raw Rapier queries (L-1) are allowed only on a line marked
-// `// lh-allow: <reason>` (games/test/phase3-done.test.mjs reads the marker on the same line).
+// `// lh-allow: <reason>` (exp/test/phase3-done.test.mjs reads the marker on the same line).
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync, statSync } from 'node:fs';
