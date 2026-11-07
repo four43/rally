@@ -25,5 +25,5 @@ export default {
       ...Object.fromEntries(SCENERY_IDS.map(id => [id, SCENERY])),
     },
   },
-  build: { out: '../../site/exp/rally', entry: 'src/main.js', template: 'index.template.html', pwa: 'pwa' },
+  build: { out: 'dist', entry: 'src/main.js', template: 'index.template.html', pwa: 'pwa' },
 };

@@ -2,3 +2,4 @@ node_modules/
 build/
 .playwright-mcp/
 assets/models/look/
+dist/
